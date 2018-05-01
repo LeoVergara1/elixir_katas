@@ -5,9 +5,6 @@ defmodule AdventOfCode.Day5 do
     number_vowel = numer_vowels(line) 
     double_letter = double_letters(line)
     not_strings = not_string(line)
-#    IO.puts number_vowel
-#    IO.puts double_letter
-#    IO.puts not_strings
     case {number_vowel, double_letter, not_strings} do
       {true, true, false} -> 
         is_nice = true
